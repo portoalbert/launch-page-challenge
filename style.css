@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666;
+    background-size: 600px;
+    color: white;
+    padding: 100px;
+    padding-left: 480px;
+    padding-right: 480px;
+}
+.cardone h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.cardone h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+.readmorebtn {
+    margin-top: 16px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-color: rgb(126, 120, 120);
+    border-width: 1px;
+}
+.cardtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-left: 480px;
+    padding-right: 480px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.644);
+}
+.cardtwo h2 {
+    column-count: 2;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+}
+.cardthree{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #666;
+    padding: 50px;
+}
+.contentcardthree {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.pictures {
+    width: 270px;
+    height: 520px;
+    background-color: white;
+}
+.pictures h3 {
+    font-weight: 100;
+    padding: 18px;
+}
+.cardthree img {
+    width: 250px;
+    height: 250px;
+}
+.cardfour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: center;
+}
+.cardfour h1 {
+font-size: 24px;
+}
+.cardfour h2 {
+    font-size: 18px;
+    font-weight: 100;
+}
+.cardfive {
+    display: flex;
+}
+.cardfiveleft {
+    background-color: rgb(53, 168, 221);
+    color: white;
+    text-align: center;
+    flex: 1;
+    font-weight: 100;
+    padding: 50px;
+}
+.cardfiveleft h1, .cardfiveright h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.cardfiveright {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    flex: 1;
+    font-weight: 100;
+    padding: 50px;
+}
+.cardfiveleft h2, .cardfiveright h2 {
+    font-weight: 100;
+    font-size: 18px;
+}
+.cardsix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    flex: 1;
+}
+.cardsixleft, .cardsixright {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
